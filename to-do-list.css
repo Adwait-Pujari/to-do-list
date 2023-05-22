@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+  
+  header {
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: rgb(21, 58, 93);
+  }
+  
+  button {
+    border-width: 2px;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  .heading-panel {
+    text-align: center;
+    font-size: 150%;
+  }
+  
+  .sub-heading {
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .task-add-div {
+    padding: 20px;
+    margin-top: -20px;
+  }
+  
+  .input-text-area,
+  .input-date-and-time {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    font-weight: 400;
+    cursor: text;
+    background-color: rgb(241, 241, 65);
+    border-radius: 5%;
+  }
+  
+  .add-button {
+    background-color: greenyellow;
+  }
+  
+  .display-task {
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .todo-grid {
+    margin-left: 20px;
+    font-family: Oswald;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .name-display,
+  .date-display {
+    padding: 10px;
+  }
+  
+  .delete-button {
+    background-color: red;
+  }
+  

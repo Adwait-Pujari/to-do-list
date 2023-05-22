@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+
+        <link rel = "stylesheet" href = 'to-do-list.css'>
+    </head>
+    <body>
+        <header> <h3 class = 'heading-panel'>To Do List</h3> <hr style =" border-color: black;"> </header>
+        
+        <main>
+            <p class = 'sub-heading'> Below enter your task and select a completion date. </p>
+            <div class = 'task-add-div'>
+                <input type="text" placeholder="Enter your task" class = 'input-text-area'>
+                <input type="date" placeholder="End Date" class = 'input-date-and-time'>
+                <button class = 'add-button' onclick="addToList();">Add</button>
+            </div>
+            <br>
+            <div class = 'display-task'>
+                Tasks:
+                <hr style = "border-color: black;">
+            </div>
+
+            <div class = 'todo-grid'></div>    
+        </main>
+
+        <footer></footer>
+        <script src="to-do-list.js"></script>
+
+    </body>
+</html>
